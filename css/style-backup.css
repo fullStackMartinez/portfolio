@@ -1,0 +1,43 @@
+body{
+	color:yellow;
+;
+}
+#hero {
+	background: url("../im.jpg") no-repeat;
+
+	-webkit-background-size: cover;
+	background-size: cover;
+	background-position: center 60%;
+	height: 100vh;
+	position: relative;
+	width: 100%;
+}
+
+
+
+.navbar{
+	background: none !important;
+
+}
+.navbar .navbar-brand {
+	color: white;
+}
+
+
+.navbar-nav .nav-item .nav-link {
+	text-transform: uppercase;
+	padding: 0 20px;
+	color: white;
+
+}
+.home {
+	background-color: #1F272A;
+}
+.about-me{
+	background-color: #1F272A;
+}
+
+.form .container h2{
+	color: red;
+	text-align: center;
+}

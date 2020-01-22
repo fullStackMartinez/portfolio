@@ -1,0 +1,416 @@
+html, body {
+	height: 100%;
+	width: 100%;
+}
+
+h1 {
+	font-size: 3.5rem;
+}
+
+.navbar {
+	padding: 1% 0;
+	font-size: 1.2em;
+	text-align: center;
+	background: rgba(33, 37, 41, .8);
+}
+
+.navbar-brand {
+	color: lightgray;
+}
+
+.navbar-nav .nav-item .nav-link {
+	text-transform: uppercase;
+	padding: 0 20px;
+	color: lightgray;
+}
+
+.navbar-nav .nav-item .nav-link:hover {
+	color: #F7CE3E;
+}
+
+#hero {
+	position: relative;
+	height: 570px;
+	overflow: hidden;
+	background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(/image/mountains.jpeg) no-repeat center;
+	background-size: cover;
+	background-position: top;
+}
+
+.welcome {
+	min-width: 367px;
+	height: 400px;
+	position: absolute;
+	top: 60%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	overflow: hidden;
+	text-align: center;
+	color: white;
+	font-weight: 700;
+}
+
+.name {
+	color: #F7CE3E;
+	font-weight: 400;
+}
+
+.des {
+	font-size: 18px;
+	margin-bottom: 0;
+}
+
+.icons {
+	top: 25px;
+	position: relative;
+	padding-left: 0;
+	margin-top: 10px;
+	text-align: center;
+	display: flex;
+	justify-content: center;
+	list-style-type: none;
+}
+
+.icons a {
+	margin: 10px;
+	color: white;
+}
+
+.icons a:hover {
+	color: #F7CE3E
+}
+
+.button {
+	color: white;
+	border: 1px solid white;
+	border-radius: 2px;
+	padding: 10px 20px;
+	text-decoration: none;
+	font-size: 20px;
+	top: 20px;
+	position: relative;
+}
+
+.button:hover {
+	border: 1px solid #F7CE3E;
+}
+
+a:hover {
+	color: #F7CE3E;
+	text-decoration: none;
+}
+
+.about-me {
+	background-color: lightgray;
+}
+
+.jumbotron {
+	margin-bottom: 0;
+	background-color: white;
+	text-align: center;
+}
+
+.headline {
+	margin-bottom: 30px;
+}
+
+#skill {
+	padding-top: 20px;
+	padding-bottom: 40px;
+}
+
+.experience-container {
+	background: #E4E4E4;
+	margin: 0 35px;
+	padding: 2px 0;
+}
+
+.job-container {
+	display: flex;
+	max-width: 1050px;
+	padding: 0 1rem;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 3rem;
+}
+
+.display {
+	text-align: center;
+	margin: 4em 9em;
+}
+
+.image {
+	text-align: left;
+	-webkit-box-flex: 0;
+	-ms-flex: 0 1 200px;
+	flex: 0 1 200px;
+	margin-right: 6rem;
+	margin-top: auto;
+	margin-bottom: auto;
+}
+
+.image h2 {
+	font-family: 'Anton', sans-serif;
+	font-size: 2.5rem;
+}
+
+.image p {
+	font-family: 'Anton', sans-serif;
+	font-size: 12px;
+	text-align: center;
+	color: dimgrey;
+	letter-spacing: .3px;
+}
+
+.image img {
+	width: 205px;
+}
+
+.info {
+	-webkit-box-flex: 1;
+	flex: 1;
+}
+
+.info ul {
+	padding-left: 30px;
+}
+
+.info ul li {
+	padding: 5px 0;
+}
+
+.works-container {
+	padding: 0 1rem;
+	margin-bottom: 60px;
+}
+
+.works-container2 {
+	width: 65%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 0;
+}
+
+.works-flex {
+	display: flex;
+	margin: 0 90px;
+}
+
+.cards {
+	-webkit-box-flex: 1;
+	-ms-flex: 1;
+	-webkit-transition: all 200ms ease;
+	transition: all 200ms ease;
+	padding: 2.5rem;
+	background: #fff;
+	border-radius: 2px;
+	margin: .5rem;
+	flex: 1 1 calc(50% - 1rem);
+	height: 250px;
+}
+
+.cards div {
+	position: relative;
+	text-align: center;
+}
+
+.cards div a {
+	display: inline-block;
+}
+
+.monte div {
+	bottom: 20%;
+}
+
+.monte div img {
+	width: 20%;
+}
+
+.ellis
+
+.montezuma {
+	font-family: 'Anton', sans-serif;
+	color: dimgrey;
+}
+
+.cards img {
+	width: 100%;
+}
+
+.cards a {
+	color: #374858;
+	text-decoration: underline;
+}
+
+.cards a:hover {
+	color: #F7CE3E;
+}
+
+#join-container {
+	padding-top: 60px;
+	background: #E4E4E4;
+	margin: 0 35px 30px;
+	padding-bottom: 50px;
+}
+
+#join-container .btn {
+	background: none;
+	padding: 10px 30px;
+	border: 1px solid #343a40;
+	color: #343a40;
+}
+
+#foot {
+	background-color: #343a40;
+	color: lightgray;
+}
+
+#foot ul li {
+	list-style-type: none;
+	padding-right: 10px;
+
+}
+
+.card-body {
+	background-color: #374858;
+	color: lightgray;
+}
+
+@media screen and (max-width: 1400px) {
+	.monte div {
+		bottom: 23%;
+	}
+}
+
+@media screen and (max-width: 1224px) {
+	.monte div {
+		bottom: 20%;
+	}
+}
+
+@media screen and (max-width: 1092px) {
+	.monte div {
+		bottom: 19%;
+	}
+}
+
+@media screen and (max-width: 1050px) {
+	.works-flex {
+		margin-right: 45px;
+		margin-left: 45px;
+	}
+
+	.cards {
+		flex: 1 1 calc(50% - 1rem);
+	}
+}
+
+@media screen and (max-width: 900px) {
+
+	.cards {
+		padding: 2.5rem 1rem;
+	}
+
+	.monte div {
+		bottom: 16%;
+	}
+
+	.works-flex {
+		margin-right: 5px;
+		margin-left: 5px;
+	}
+
+	.job-container {
+		display: block;
+	}
+
+	.display {
+		text-align: center;
+		margin: 4em 3em;
+	}
+
+	.image {
+		-webkit-box-flex: 0;
+		-ms-flex: 0 1 200px;
+		flex: 0 1 200px;
+		margin-right: 0;
+		margin-top: auto;
+		text-align: center;
+		margin-bottom: 40px;
+	}
+
+	.image img {
+		width: 300px;
+	}
+
+	.image h2 {
+		font-size: 3.5rem;
+	}
+
+	.image p {
+		font-size: 14px;
+	}
+}
+
+@media screen and (max-width: 767px) {
+	.spacer2 {
+		display: none;
+	}
+
+	.works-flex {
+		display: block;
+		margin-right: 75px;
+		margin-left: 75px;
+	}
+
+	.cards {
+		margin-bottom: 3em;
+	}
+}
+
+@media screen and (max-width: 700px) {
+
+	.cards {
+		flex: 1 1 calc(100% - 1rem);
+		height: 250px;
+		margin-left: 60px;
+		margin-right: 60px;
+	}
+
+	.monte div img {
+		width: 30%;
+	}
+
+	.works-container2 {
+		width: 100%;
+	}
+}
+
+@media screen and (max-width: 600px) {
+
+	.works-flex {
+		margin-right: 20px;
+		margin-left: 20px;
+	}
+
+	.experience-container {
+		background: #E4E4E4;
+		margin: 0;
+		padding: 2px 0;
+	}
+
+	#join-container {
+		padding-top: 60px;
+		background: #E4E4E4;
+		margin: 0;
+		padding-bottom: 50px;
+	}
+}
+
+@media screen and (max-width: 500px) {
+
+	.cards {
+		margin-left: 10px;
+		margin-right: 10px;
+	}
+}
